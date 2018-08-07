@@ -28,15 +28,15 @@ inMemoryAuth:
 mongo:
   rs: rs
   rsEnabled: true
-  dbhost: mongo-rs-mongodb-replicaset
+  dbhost: mongodb-mongodb-replicaset
   dbname: gravitee
   dbport: 27017
 
 es:
   protocol: http
-  cluster: elasticsearch
+  cluster: efk-cluster
   index: gravitee
-  host: elasticsearch-elasticsearch-client
+  host: efk-elasticsearch
   port: 9200
 
 api:
