@@ -26,8 +26,6 @@ inMemoryAuth:
   enabled: true
 
 mongo:
-  rs: rs
-  rsEnabled: true
   dbhost: 192.168.10.83
   dbname: gravitee
   dbport: 27017
